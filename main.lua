@@ -7,18 +7,31 @@ display.setDefault ("background", 10/255, 30/255, 100/255)
 
 -- hide the status bar
 display.setStatusBar (display.HiddenStatusBar)
+
+-- text to display area of the Polygon1
+local polygontext1 = display.newText ()
+
+-- text to display area of the Polygon2
+local polygontext2 = display.newText ()
+
+-- text to display area of the Polygon3
+local polygontext3 = display.newText ()
+
+-- text to display area of the Polygon4
+local polygontext4 = display.newText ()
+
  
 --vetices of Polygon1 variable
-local vertices1 = { 0,-60, -60,60, 60,60, 20,10, 96,37, 10,30}
+local vertices1 = { 1,1, 2,2, 3,3, 4,4, 5,5}
 
 --vetices of Polygon2 variable
-local vertices2 = { 0,-60, -60,60, 60,60, 20,10, 96,37, 10,30}
+local vertices2 = { 1,1, 2,2, 3,3, 4,4, 5,5, 6,6}
 
 --vetices of Polygon3 variable
-local vertices3 = { 0,-60, -60,60, 60,60, 20,10, 96,37, 10,30}
+local vertices3 = { 1,1, 2,2, 3,3, 4,4, 5,5, 6,6, 7,7,}
 
 --vetices of Polygon4 variable
-local vertices4 = { 0,-60, -60,60, 60,60, 20,10, 96,37, 10,30}
+local vertices4 = { 1,1, 2,2, 3,3, 4,4, 5,5, 6,6, 7,7, 8,8}
 
 --
 local defaultY = display.contentHeight/3
