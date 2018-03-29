@@ -45,7 +45,7 @@ local vertices2 = { -100,0, -50,-100, 50,-100, 100,0, 50,100, -50,100}
 local vertices3 = { -100,50, -100,-50, -50,-100, 50,-100, 100,-50, 100,50, 50,100, -50,100}
 
 --vetices of Polygon4 variable
-local vertices4 = { -100,0, -50,-100, 50,-100, 100,0, 50,100, -50,100}
+local vertices4 = { -100,0, -80,-65, -50,-100, 50,-100, 80,-65, 100,0, 80,65, 50,100, -50,100, -80,65}
 
 --
 local defaultY = display.contentHeight/3
@@ -78,31 +78,3 @@ Polygon3:setStrokeColor( 1, 0, 1 )
 --Polygon4 border size and color
 Polygon4.strokeWidth = 12
 Polygon4:setStrokeColor( 0, 1, 0 )
-
-
-
---[[
--- Area of circle
-areaText2 = display.newText ("The area of this circle with a radius of \n" ..
-
---Text displaying area
-	radiusCircle .. " is " .. 
-
---Text displaying area
-	areaCircle .. " pixels².", 30, 30, Arial, 50)
-
---anchor for text box
-areaText2.anchorY = 0
-
---anchor for text box
-areaText2.anchorX = 0
-
--- location of text
-areaText2.x = 50
-
---location of text
-areaText2.y = display.contentHeight/1.5
-
--- color of text
-areaText2:setFillColor (1, 1, 1)
-]]--
